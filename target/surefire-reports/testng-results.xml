@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Hackathon" duration-ms="200808" started-at="2019-11-27T22:33:17Z" finished-at="2019-11-27T22:36:37Z">
+    <groups>
+    </groups>
+    <test name="Traditional" duration-ms="200808" started-at="2019-11-27T22:33:17Z" finished-at="2019-11-27T22:36:37Z">
+      <class name="com.test.VisualAITests">
+        <test-method status="PASS" signature="initiate()[pri:0, instance:com.test.VisualAITests@3bfdc050]" name="initiate" is-config="true" duration-ms="5039" started-at="2019-11-27T22:33:17Z" finished-at="2019-11-27T22:33:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiate -->
+        <test-method status="PASS" signature="setUpBatch()[pri:0, instance:com.test.VisualAITests@3bfdc050]" name="setUpBatch" is-config="true" duration-ms="0" started-at="2019-11-27T22:33:22Z" finished-at="2019-11-27T22:33:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBatch -->
+        <test-method status="PASS" signature="CanvasChartTest()[pri:0, instance:com.test.VisualAITests@3bfdc050]" name="CanvasChartTest" duration-ms="46890" started-at="2019-11-27T22:33:22Z" finished-at="2019-11-27T22:34:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CanvasChartTest -->
+        <test-method status="PASS" signature="DynamicContentTest()[pri:0, instance:com.test.VisualAITests@3bfdc050]" name="DynamicContentTest" duration-ms="25899" started-at="2019-11-27T22:34:09Z" finished-at="2019-11-27T22:34:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DynamicContentTest -->
+        <test-method status="PASS" signature="LoginFeatureTest(java.lang.String, java.lang.String)[pri:0, instance:com.test.VisualAITests@3bfdc050]" name="LoginFeatureTest" duration-ms="19357" started-at="2019-11-27T22:34:34Z" data-provider="userdetails" finished-at="2019-11-27T22:34:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginFeatureTest -->
+        <test-method status="PASS" signature="LoginFeatureTest(java.lang.String, java.lang.String)[pri:0, instance:com.test.VisualAITests@3bfdc050]" name="LoginFeatureTest" duration-ms="21129" started-at="2019-11-27T22:34:54Z" data-provider="userdetails" finished-at="2019-11-27T22:35:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginFeatureTest -->
+        <test-method status="PASS" signature="LoginFeatureTest(java.lang.String, java.lang.String)[pri:0, instance:com.test.VisualAITests@3bfdc050]" name="LoginFeatureTest" duration-ms="18627" started-at="2019-11-27T22:35:15Z" data-provider="userdetails" finished-at="2019-11-27T22:35:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginFeatureTest -->
+        <test-method status="PASS" signature="LoginFeatureTest(java.lang.String, java.lang.String)[pri:0, instance:com.test.VisualAITests@3bfdc050]" name="LoginFeatureTest" duration-ms="18564" started-at="2019-11-27T22:35:34Z" data-provider="userdetails" finished-at="2019-11-27T22:35:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginFeatureTest -->
+        <test-method status="PASS" signature="LoginPageUIElementTest()[pri:0, instance:com.test.VisualAITests@3bfdc050]" name="LoginPageUIElementTest" duration-ms="15369" started-at="2019-11-27T22:35:52Z" finished-at="2019-11-27T22:36:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPageUIElementTest -->
+        <test-method status="PASS" signature="TableSortTest()[pri:0, instance:com.test.VisualAITests@3bfdc050]" name="TableSortTest" duration-ms="29179" started-at="2019-11-27T22:36:07Z" finished-at="2019-11-27T22:36:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TableSortTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.test.VisualAITests@3bfdc050]" name="closeBrowser" is-config="true" duration-ms="710" started-at="2019-11-27T22:36:37Z" finished-at="2019-11-27T22:36:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.test.VisualAITests -->
+    </test> <!-- Traditional -->
+  </suite> <!-- Hackathon -->
+</testng-results>

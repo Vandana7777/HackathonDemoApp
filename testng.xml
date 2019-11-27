@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Hackathon" verbose="1" >
+    <test name="Traditional">
+        <classes>
+            <class name="com.test.TraditionalTests"/>
+        </classes>
+    </test>
+</suite>

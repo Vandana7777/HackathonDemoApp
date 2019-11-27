@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Hackathon">
+              <span class="suite-name border-passed">Hackathon</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Hackathon">
+                    <span>C:\Users\altaf\IdeaProjects\HackathonDemoApp\testngApplitool.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Hackathon">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Hackathon">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Hackathon">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Hackathon">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Hackathon">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Hackathon">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">8 methods,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Hackathon" class="hide-methods passed suite-Hackathon"> (hide)</a> <!-- hide-methods passed suite-Hackathon -->
+                      <a href="#" panel-name="suite-Hackathon" class="show-methods passed suite-Hackathon"> (show)</a> <!-- show-methods passed suite-Hackathon -->
+                    </span>
+                    <div class="method-list-content passed suite-Hackathon">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Hackathon" title="com.test.VisualAITests" hash-for-method="CanvasChartTest">CanvasChartTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Hackathon" title="com.test.VisualAITests" hash-for-method="DynamicContentTest">DynamicContentTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Hackathon" title="com.test.VisualAITests" hash-for-method="LoginFeatureTest(, password)">LoginFeatureTest(, password)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Hackathon" title="com.test.VisualAITests" hash-for-method="LoginFeatureTest(, )">LoginFeatureTest(, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Hackathon" title="com.test.VisualAITests" hash-for-method="LoginFeatureTest(username, password)">LoginFeatureTest(username, password)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Hackathon" title="com.test.VisualAITests" hash-for-method="LoginFeatureTest(username, )">LoginFeatureTest(username, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Hackathon" title="com.test.VisualAITests" hash-for-method="LoginPageUIElementTest">LoginPageUIElementTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Hackathon" title="com.test.VisualAITests" hash-for-method="TableSortTest">TableSortTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Hackathon -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Hackathon" class="panel Hackathon">
+          <div class="suite-Hackathon-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.test.VisualAITests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CanvasChartTest">
+                  </a> <!-- CanvasChartTest -->
+                  <span class="method-name">CanvasChartTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DynamicContentTest">
+                  </a> <!-- DynamicContentTest -->
+                  <span class="method-name">DynamicContentTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginFeatureTest(, password)">
+                  </a> <!-- LoginFeatureTest(, password) -->
+                  <span class="method-name">LoginFeatureTest</span>
+                  <span class="parameters">(, password)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginFeatureTest(, )">
+                  </a> <!-- LoginFeatureTest(, ) -->
+                  <span class="method-name">LoginFeatureTest</span>
+                  <span class="parameters">(, )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginFeatureTest(username, password)">
+                  </a> <!-- LoginFeatureTest(username, password) -->
+                  <span class="method-name">LoginFeatureTest</span>
+                  <span class="parameters">(username, password)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginFeatureTest(username, )">
+                  </a> <!-- LoginFeatureTest(username, ) -->
+                  <span class="method-name">LoginFeatureTest</span>
+                  <span class="parameters">(username, )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginPageUIElementTest">
+                  </a> <!-- LoginPageUIElementTest -->
+                  <span class="method-name">LoginPageUIElementTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TableSortTest">
+                  </a> <!-- TableSortTest -->
+                  <span class="method-name">TableSortTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Hackathon-class-passed -->
+        </div> <!-- panel Hackathon -->
+        <div panel-name="test-xml-Hackathon" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\altaf\IdeaProjects\HackathonDemoApp\testngApplitool.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Hackathon&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Traditional&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.test.VisualAITests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Traditional --&gt;
+&lt;/suite&gt; &lt;!-- Hackathon --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Hackathon" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Hackathon</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Traditional (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Hackathon" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Hackathon</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Hackathon" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Hackathon</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Hackathon');
+function tableData_Hackathon() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'CanvasChartTest')
+data.setCell(0, 2, 'com.test.VisualAITests')
+data.setCell(0, 3, 46890);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TableSortTest')
+data.setCell(1, 2, 'com.test.VisualAITests')
+data.setCell(1, 3, 29179);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'DynamicContentTest')
+data.setCell(2, 2, 'com.test.VisualAITests')
+data.setCell(2, 3, 25899);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'LoginFeatureTest')
+data.setCell(3, 2, 'com.test.VisualAITests')
+data.setCell(3, 3, 21129);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'LoginFeatureTest')
+data.setCell(4, 2, 'com.test.VisualAITests')
+data.setCell(4, 3, 19357);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'LoginFeatureTest')
+data.setCell(5, 2, 'com.test.VisualAITests')
+data.setCell(5, 3, 18627);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'LoginFeatureTest')
+data.setCell(6, 2, 'com.test.VisualAITests')
+data.setCell(6, 3, 18564);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'LoginPageUIElementTest')
+data.setCell(7, 2, 'com.test.VisualAITests')
+data.setCell(7, 3, 15369);
+window.suiteTableData['Hackathon']= { tableData: data, tableDiv: 'times-div-Hackathon'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-Hackathon">
+              </div> <!-- times-div-Hackathon -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Hackathon" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Hackathon</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Hackathon" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Hackathon" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.test.VisualAITests</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">initiate</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpBatch</span>
+                <span class="method-start">5051 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">CanvasChartTest</span>
+                <span class="method-start">5065 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DynamicContentTest</span>
+                <span class="method-start">51957 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LoginFeatureTest(, )</span>
+                <span class="method-start">77866 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LoginFeatureTest(username, )</span>
+                <span class="method-start">97223 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LoginFeatureTest(, password)</span>
+                <span class="method-start">118352 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LoginFeatureTest(username, password)</span>
+                <span class="method-start">136980 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LoginPageUIElementTest</span>
+                <span class="method-start">155545 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TableSortTest</span>
+                <span class="method-start">170915 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">200097 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
